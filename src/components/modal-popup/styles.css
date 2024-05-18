@@ -1,0 +1,68 @@
+.modal-button {
+  font-size: 20px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(129, 196, 22);
+}
+
+.content {
+  position: relative;
+  background: white;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  color: white;
+  animation: move-down 0.5s;
+}
+
+.close-modal-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  float: right;
+  font-weight: bold;
+}
+
+.header {
+  padding: 4px 16px;
+  background: rgb(52, 214, 52);
+}
+
+.body {
+  padding: 2px 16px;
+  height: 100px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  padding: 2px 16px;
+  background: rgb(52, 214, 52);
+}
+
+@keyframes move-down {
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}

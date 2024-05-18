@@ -1,0 +1,16 @@
+.tree-view {
+  min-height: 100vh;
+  width: 350px;
+  background-color: aqua;
+}
+
+.menu-list-container {
+  list-style: none;
+}
+
+.menu-item div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}

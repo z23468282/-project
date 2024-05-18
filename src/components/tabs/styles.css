@@ -1,0 +1,35 @@
+.tabs-wrapper {
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-item {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: rgb(98, 1, 98);
+}
+
+.tab-item.active {
+  border-color: black;
+  background: yellow;
+  color: black;
+}
+
+.tabs-content {
+  color: red;
+  padding: 20px 10px;
+  background: white;
+}
